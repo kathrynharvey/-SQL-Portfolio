@@ -1,0 +1,9 @@
+CREATE TABLE books (id integer primary key, name text, rating integer);
+INSERT INTO
+books 
+Organize books by favorites.
+VALUES
+(1,'Art',3),
+(2,'LOTR',1),
+(3,'History',2);
+SELECT * FROM books
